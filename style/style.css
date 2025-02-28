@@ -25,7 +25,7 @@ body {
     background-repeat: no-repeat;
     font-family: var(--font);
     padding: 24px;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Configurações do container */
