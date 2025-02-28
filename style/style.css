@@ -1,3 +1,98 @@
-img {
-    border-radius: 16px;
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 150%;
 }
+
+:root {
+    --background-color: #573824;
+    --surface-color:  #f0e8c2;
+    --text-color-primary: #291b1a;
+    --text-color-secundary: #573a37;
+    --text-color-on-br: #f0e8c2;
+
+    --font: "Alice", serif;
+}
+
+/* Configurações do body */
+
+body {
+    background-image: url(../image/bg-image.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: var(--font);
+    padding: 24px;
+
+}
+
+/* Configurações do container */
+
+#container {
+    margin: auto;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 800px;
+    padding: 24px;
+    background-color: var(--surface-color);
+    box-sizing: border-box;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+/* Configuração do main */
+
+main {
+    padding: 24px;
+}    
+
+section {
+    padding-bottom: 24px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 140%;
+    color: var(--text-color-primary);
+    font-weight: lighter;
+    margin-bottom: 4px;
+}
+
+#about p + p {
+    padding-top: 12px;
+}
+
+h2 {
+    font-size: 24px;
+    color: var(--text-color-primary);
+    font-weight: lighter;
+    margin-bottom: 4px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li, p {
+    color: var(--text-color-secundary);
+}
+
+/* Configuração do footer */
+
+footer p {
+    margin-top: 24px;
+    text-align: center;
+    color: var(--text-color-on-br);
+    font-size: 0.8em;
+}
+
+footer a {
+    color: var(--text-color-on-br);
+}
+
+/* Êxodo 33:14-15 */
